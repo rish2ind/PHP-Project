@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.biginput{
+    padding: 5px;
+    border-radius: 5px;
+}
+#header{
+    border: 0px solid;
+    background-color: #000099;
+    height: 100px;
+    width: 100%;
+    color: #ffffff;
+}
+#headertitle{
+    font-size: 48px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+#midcontent{
+    background-color: #33ccff;
+    border: 0px dashed;
+    height: 700px;
+}
+#headerlogin{
+    padding-top: 20px;
+    font-size: 12px;
+    padding-right: 100px;
+}
