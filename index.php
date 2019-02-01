@@ -2,6 +2,7 @@
     <head>
         <title>Registration</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="PHPstyle.css" type="text/css">
     </head>
     
     <body>
@@ -19,11 +20,11 @@
             </div>
         </div>
         <div id="midcontent">
-            <div class="fl" style="width:550px; padding-left:150px; border:0px solid;">Connect with friends and the <br>world around you. <br><br>
+            <div class="fl" style="width:550px; padding-left:150px; padding-top:150px; border:0px solid;">Connect with friends and the <br>world around you. <br><br>
              See photos and news updates from friends. <br><br>
              Find more of what you are looking for <br><br>
              </div>
-             <div class="fl" style="border:0px solid; margin-left:10px;">
+             <div class="fl" style="border:0px solid; margin-left:10px; float:right;">
                  <table style="float:left" border="0">
                      <form action="handleRegistration.php" method="post" name="frmregs">
                          <tr><td colspan="2" style="font-size:48px">Sign Up</td></tr>
