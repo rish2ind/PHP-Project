@@ -77,8 +77,8 @@
                              ?>
                          </select> 
                          </td></tr>
-                         <tr><td colspan="2"><input type="radio" name="gender" value="">Female
-                         <input type="radio" name="gender" value="">Male</td></tr>
+                         <tr><td colspan="2"><input type="radio" name="genderf" value="">Female
+                         <input type="radio" name="genderm" value="">Male</td></tr>
                          <tr><td colspan="2" width="350">By clicking Sign Up, you are agree to our Terms and that you have read our Data Policy, including our Cookies Use.</td></tr>
                          <tr><td colspan="2"><input type="submit" class="biginput" name="submit" value="Sign Up" style="background-color:#f1f1f1; width:150px;"></td></tr>
                      </form>
