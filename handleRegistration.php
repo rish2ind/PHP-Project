@@ -27,12 +27,20 @@
         $dob=$year."-".$month."-".$day;
         
         $check = "select * from details where email = '$emailreg'";
+        $check_mobile = "select * from details where mobileno = '$mobileno'";
         $result = mysqli_query($conn, $check);
+        $res_mobile = mysqli_query($conn, $check_mobile);
         
         if(mysqli_num_rows($result) > 0){
-            echo "Sorry email id is already taken";
+            echo "Sorry email id is already taken";    
             ?>
             <a href="index.php">Click here to go back</a>
+            <?php
+        }
+        else if (mysqli_num_rows($res_mobile) > 0) {
+            echo "Sorry mobile number is already taken";
+            ?>
+            <a href="index.php">Click here to go back</a>;
             <?php
         }
        else{
