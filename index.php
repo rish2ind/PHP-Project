@@ -18,9 +18,9 @@
                     
                     <input type="submit" name="Login" value="Login"></div>
                     
-                    <div class="fr" style="padding-right:20px;">Password<br><input type="password" name="pwd" placeholder="password"><br><a href="forgetpwdpage.php" style="color:#ffffff; text-decoration:none;">Forget your password?</a></div>
+                    <div class="fr" style="padding-right:20px;">Password<br><input type="password" name="pwd" placeholder="password" required=""><br><a href="forgetpwdpage.php" style="color:#ffffff; text-decoration:none;">Forget your password?</a></div>
                     
-                    <div class="fr" style="padding-right:20px;">Email<br><input type="email" name="email" placeholder="email id"><br><input type="checkbox" name="chkkeeplogin">Keep me logged in</div>
+                    <div class="fr" style="padding-right:20px;">Email<br><input type="email" name="email" placeholder="email id" required=""><br><input type="checkbox" name="chkkeeplogin">Keep me logged in</div>
                 </form>
             </div>
         </div>
