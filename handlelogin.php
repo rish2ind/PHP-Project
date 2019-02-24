@@ -1,7 +1,6 @@
 <?php
+    session_start();
     $conn = mysqli_connect("localhost", "root", "", "registration" );
-
-
 ?>
    <html>
     <body style="background: url(PHP_Images/Background.jpg);">
@@ -17,7 +16,7 @@
                 if(mysqli_num_rows($result)==1){
                     echo "You are successfully logged in ";
                     ?>
-                    <br><a href="HTML_Files/index.html">Click here</a>, to redirect to Official Site of Indian Information .
+                    <br><a href="index1.php">Click here</a>, to redirect to Official Site of Indian Information .
                     <?php
                     exit();
                 }
