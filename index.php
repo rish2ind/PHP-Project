@@ -3,6 +3,7 @@
         <title>Registration</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="PHPstyle.css" type="text/css">
+        <link rel="icon" type="image/gif" href="PHP_Images/register.jpeg">
     </head>
     
     <body>
