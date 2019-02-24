@@ -1,8 +1,10 @@
 <?php
     $conn = mysqli_connect("localhost", "root", "", "registration" );
+
+
 ?>
    <html>
-    <body>
+    <body style="background: url(PHP_Images/Background.jpg);">
        <center>
         <?php
             if(isset($_POST['Login'])){
@@ -14,15 +16,16 @@
                 
                 if(mysqli_num_rows($result)==1){
                     echo "You are successfully logged in ";
+                    ?>
+                    <br><a href="HTML_Files/index.html">Click here</a>, to redirect to Official Site of Indian Information .
+                    <?php
                     exit();
                 }
                 else{
                     echo "Wrong email or password";
                     ?>
-                    <br><a href="index.php">Click to go back.</a>
-                    
-                    
-                    
+
+                    <br><a href="index.php">Click to go back.</a>    
                     <?php
                     exit();
                 }
@@ -30,5 +33,6 @@
         
            ?>
         </center>
+
     </body>
 </html>
