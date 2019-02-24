@@ -50,7 +50,7 @@
         if($run){
             ?>
             <p>Data Entered Successfully</p>
-            <a href="HTML_Files/index.html">Click to go back</a>
+            <a href="index1.php">Click here</a>, to redirect to the Official Site of information about India
             <?php
         }
         else{
