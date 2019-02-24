@@ -5,7 +5,7 @@
 	<head>
 		<title>Sign Up</title>
 	</head>
-<body>	
+<body style="background: url(PHP_Images/Background.jpg);">	
 
 
 <?php
@@ -50,7 +50,7 @@
         if($run){
             ?>
             <p>Data Entered Successfully</p>
-            <a href="index.php">Click to go back</a>
+            <a href="HTML_Files/index.html">Click to go back</a>
             <?php
         }
         else{
